@@ -1,0 +1,67 @@
+｛body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }  
+body, button, input, select, textarea { color:#454545; }  
+body{font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+button, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-size:100%; }  
+h2, h3 { font-size:14px; }  
+button, input, select, textarea, label { vertical-align:middle; outline:none; }  
+img { vertical-align:middle; border:none; display:inline-block;}  
+ul, ol { list-style:none; }  
+a { text-decoration:none; color:#454545; vertical-align:baseline; cursor:pointer; }  
+
+table { border-collapse:collapse; border-spacing:0; }  
+body { word-wrap:break-word; word-break:break-all; height:100%; } 
+ 
+.head{background-color:#fff;width:100%;}
+.head-top{width:100%;height:31px;margin:0 auto;border:1px solid silver;}
+.head-top .fl{float:left;padding-right:49%;}
+.head-top .fl a{color:#000;line-height:31px;padding:0 5px;font-size:12px;}
+.head-top .fl a:hover{color:#00ff00;}
+
+.head-top .fr a{color:#000;line-height:31px;font-size:12px;margin:0 auto;padding:0 7px;}
+.head-top .fr a:hover{color:#00ff00;text-decoration:underline;}
+
+.head-top .fr .more{float:right;width:85px;height:31px;line-height:31px;background-color:blue;text-align:center;display: none;}
+.head-top .fr .more a:hover{color:#00ff00;}
+.head-top .fr .more ul{width:83px;height:520px;line-height:40px;background-color:#fff;border:1px solid silver;}
+.head-top .fr .more ul li a img{display:inline-block;color:black;}
+
+
+.picture a img{width:240px;height:130px;display:block;margin:0 auto;padding-top:60px;padding-bottom:20px;clear:both;}
+
+
+.search input{height:35px;width:535px;}
+.search button{height:40px;width:102px;background-color:#38f;font-size:16px;color:white;}
+.search form{text-align:center;}
+
+.box{width:897px;height:407px;border:1px solid silver;margin:60px auto 20px auto;position:relative;}
+.box .touding{width: 897px;height:36px;background-color:#fff;border-bottom:1px solid silver;}
+.box .touding-l{float: left;}
+.box .touding-l a{color:#000;height:36px;width:90px;line-height:36px;text-align:center;font-size:16px;display:inline-block;}
+.box .touding-l a:hover{background-color:#ff00ff;}
+
+.box .touding-r{float:right;}
+.box .touding-r a{display:block;line-height:30px;padding:0 20px;}
+
+
+.news{background-color:#fff;height:370px;width:895px;margin:0 auto;border-left:none;overflow-y:scroll;}
+.news .news-l{width:560px;float:left;background-color:#fff;margin:0 auto;}
+.news .news-l .news-zblb ul li a{color:black;line-height:80px;font-weight:bold;font-size:16px;margin:0 auto;display:block;padding-left:10px;border-bottom:1px solid silver;}
+.news-l .news-zblb img{width:176px;height:105px;float:right;padding-right:20px;}
+.news-l .news-zblb small{color:silver;font-size:12px;}
+.news-l .news-zblb strong:hover{color:#ff00ff;text-decoration:underline;}
+.news .news-l p{color:silver;padding-left:10px;padding-top:20px;}
+
+.box .news .news-r{position:absolute;top:37px;right:18px;}
+.news .news-r{width:330px;height:370px;float:right;background-color:#fff;margin:0 auto;}
+.news .news-r .news-yblb ul li a{color:#000;line-height:20px;font-size:14px;margin:0 auto;display:block;padding-top:10px;padding-left:20px;}
+.news-r .news-yblb ul li a:hover{color:#ff00ff;text-decoration:underline;}
+.news-r .news-yblb .left{float:left;width:160px;height:310px;margin:0 auto;}
+.news-r .news-yblb .right{float:right;width:160px;height:310px;margin:0 auto;}
+.news-r .news-yblb .left b{padding-left:20px;padding-top:20px;display:block;}
+.news-r .news-yblb .right span{padding-left:70px;padding-top:20px;font-size:14px;display:block;font-weight:bold;}
+.news-r .news-yblb .right span:hover{color:red;}
+
+
+.footer{width:630px;height:40px;background-color:#fff;margin:0 auto;}
+.footer .footer-db{line-height:20px;color:silver;font-size:12px;text-align:center;}
+.footer .footer-db span{text-decoration:underline;}
